@@ -1,0 +1,77 @@
+Package: com.matteyeux.clover
+Version: 1.1.3
+Architecture: iphoneos-arm
+Maintainer: matteyeux
+Filename: ./deb_files/com.matteyeux.clover_1.1.3_iphoneos-arm.deb
+Size: 59270
+MD5sum: e212f9e2c6ad8d2efcf0982538fa0430
+SHA1: f1390688b3324825023cc28f8c30176507a30591
+SHA256: 97247a3ab615b3dd06c073cadbff373c0a9b64a65244c65c232b3540eef23c08
+Section: System
+Description: tfp0 for iOS 9.0-9.3.4
+Author: Siguza
+Name: cl0ver
+
+Package: com.matteyeux.iokitutils
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: matteyeux
+Filename: ./deb_files/com.matteyeux.iokitutils_1.0_iphoneos-arm.deb
+Size: 17236
+MD5sum: 9fea439f50109afa2faa9e152c603a71
+SHA1: 3ef4cb5b8b295838be490b0527188280c13d8136
+SHA256: 80628ff57da533d5fe43676acaa763f8ce7ad41c194138780f3b4e94363bf003
+Section: System
+Description: Tools to deal with IOKit
+Author: Siguza
+Name: iokit-utils
+
+Package: com.matteyeux.sysnet
+Version: 1.3.1-1+debug
+Architecture: iphoneos-arm
+Maintainer: matteyeux
+Installed-Size: 144
+Filename: ./deb_files/com.matteyeux.sysnet_1.3.1-1+debug_iphoneos-arm.deb
+Size: 7714
+MD5sum: b066dc1d6532109e492e45661d1e43f3
+SHA1: 332d12bff300eefab6defc1dcaa2a9480f0e31ee
+SHA256: d49cee42b825ed7dfb6e33adeb6c36f3f77fcab94bb79c39936e7ac310b6c75f
+Section: System
+Description: A tool to grab system and network info
+Tag: role::hacker
+Author: matteyeux
+Name: sysnet
+
+Package: com.qwertyoruiop.serialsh
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: qwertyoruiop
+Filename: ./deb_files/com.qwertyoruiop.serialsh-iphoneos-0.0.1-1.deb
+Size: 8604
+MD5sum: 645bd4c140fa3f3132d4563a83cd9fe2
+SHA1: 55bc5f0c573ba6523dcf3dc0c1c3252fcc5b1dad
+SHA256: f669310d68faa8cc5301bef28b6312573a6e82641c9cc226342a9779181d0682
+Section: System
+Description: safety net against bootloops
+Tag: role::hacker
+Author: qwertyoruiop
+Name: serialsh
+
+Package: net.siguza.ios-kern-utils
+Version: 1.4.0
+Architecture: iphoneos-arm
+Maintainer: Siguza <siguza@siguza.net>
+Filename: ./deb_files/net.siguza.ios-kern-utils_1.4.0_iphoneos-arm.deb
+Size: 38328
+MD5sum: 0816067c1bc6680da5f7a2e7415053ba
+SHA1: 8580d9e7be6fde7af3ca4da23bfa54377c3338f6
+SHA256: a87575663f1dd25ee0c557f5eabd52770821e0256d3caadf752f48a908c368e4
+Section: Development
+Homepage: https://github.com/Siguza/ios-kern-utils
+Description: kdump & friends
+ Utilities for playing with the kernel. Requires tfp0 patch.<br>
+ Run with -h for help.<br>
+ <a href="https://github.com/Siguza/ios-kern-utils">Free and open source</a>, forked from <a href="https://github.com/saelo/ios-kern-utils">saelo</a>.
+Author: Siguza <siguza@siguza.net>
+Name: kern-utils
+

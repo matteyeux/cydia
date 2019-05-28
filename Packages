@@ -101,6 +101,23 @@ Author: matteyeux <mathieu.hautebas@gmail.com>
 Name: sl
 
 Package: com.matteyeux.sysnet
+Version: 1.2.1-3
+Architecture: iphoneos-arm
+Maintainer: matteyeux <mathieu.hautebas@gmail.com>
+Installed-Size: 144
+Filename: ./deb_files/com.matteyeux.sysnet_1.2.1-3_iphoneos-arm.deb
+Size: 6764
+MD5sum: 280b543b08637b4dfc4a2a3224df9690
+SHA1: dc78b6af4bb7cdb80f6e8a4db03e689f32626ff2
+SHA256: 6ea79a72a8426c583e44fbd43039e566d269e9550478c4710efd6c22ed1739da
+Section: System
+Homepage: matteyeux.me
+Description: A tool to grab system and network information.
+Tag: role::hacker
+Author: matteyeux <mathieu.hautebas@gmail.com>
+Name: sysnet
+
+Package: com.matteyeux.sysnet
 Version: 1.2.2-2
 Architecture: iphoneos-arm
 Maintainer: matteyeux <mathieu.hautebas@gmail.com>
@@ -199,6 +216,21 @@ Tag: role::hacker
 Author: qwertyoruiop
 Name: serialsh
 
+Package: com.qwertyoruiop.serialsh12
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: qwertyoruiop
+Filename: ./deb_files/com.qwertyoruiop.serialsh12-iphoneos-0.0.1-1.deb
+Size: 5256
+MD5sum: 859e35540053b068eb7675bb539b6354
+SHA1: 176fd931b22f0b52144f2b726af7b138fc5c5c9d
+SHA256: 790b2c3da7eb0cdb0fa5a076e0aa4d3e048ebcfffd996aea6428088b38cd5002
+Section: System
+Description: safety net against bootloops
+Tag: role::hacker
+Author: qwertyoruiop
+Name: serialsh12
+
 Package: net.siguza.ios-kern-utils
 Version: 1.4.0
 Architecture: iphoneos-arm
@@ -216,4 +248,23 @@ Description: kdump & friends
  <a href="https://github.com/Siguza/ios-kern-utils">Free and open source</a>, forked from <a href="https://github.com/saelo/ios-kern-utils">saelo</a>.
 Author: Siguza <siguza@siguza.net>
 Name: kern-utils
+
+Package: python
+Version: 2.7.6-3
+Architecture: iphoneos-arm
+Maintainer: Linus Yang <laokongzi@gmail.com>
+Installed-Size: 87344
+Depends: berkeleydb, bzip2, libffi, ncurses, openssl, readline, sqlite3
+Filename: ./deb_files/python_2.7.6-3_iphoneos-arm.deb
+Size: 10234620
+MD5sum: a4c724074a4d9443eb43ca023fd9023f
+SHA1: 630fda54f749890edbc8d6f807f1abffb77cb24a
+SHA256: dc23cfff412ed52f403e8c870a0d62fae63107d8fcab9a52cf846c34ad69cbe3
+Section: Scripting
+Priority: optional
+Homepage: http://www.python.org/
+Description: architectural programming language
+Tag: purpose::console
+Name: Python
+Sponsor: Linus Yang <http://linusyang.com/>
 

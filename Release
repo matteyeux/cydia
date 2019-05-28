@@ -1,6 +1,7 @@
 Origin: matteyeux's Cydia Repository
 Label: Cydia
-Version: 9
+Suite : stable
+Version: 2.0
 Architectures: iphoneos-arm
 Components: main
 Description: Cydia repo with random stuff
